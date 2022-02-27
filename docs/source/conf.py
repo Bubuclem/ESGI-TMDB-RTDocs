@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'TMDB-ESGI'
-copyright = '2021, Graziella'
+copyright = '2021, Bubuclem'
 author = 'Bubuclem'
 
 release = '0.1'

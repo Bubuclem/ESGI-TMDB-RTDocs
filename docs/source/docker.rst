@@ -27,6 +27,12 @@ Une fois installer dans le Windows Terminal exécutez :
 Installer une distribution Linux
 ------------
 
+`Microsoft Store <https://aka.ms/wslstore>`_ ( Personnellement j’utilise Debian )
+
+Une fois téléchargé il suffit de cliquer sur “Ouvrir” dans le Microsoft Store,
+une invite de command s’ouvre, appuyez une fois sur Entrée, puis suivre les instruction
+
+
 Créer un répertoire de travail sur votre machine avec Visual Studio
 ------------
 
