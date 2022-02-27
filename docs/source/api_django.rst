@@ -81,8 +81,8 @@ Genres
 ------------
 
 .. list-table::
-    :widths: 50 25 25
-    :header-rows: 1
+   :widths: 50 25 25
+   :header-rows: 1
 
    * - name
      - type
@@ -99,8 +99,8 @@ People
 ------------
 
 .. list-table::
-    :widths: 50 25 25
-    :header-rows: 1
+   :widths: 50 25 25
+   :header-rows: 1
 
    * - name
      - type
@@ -123,7 +123,7 @@ People
      - optional
 
 .. list-table::
-    :widths: 50 25 25
+   :widths: 50 25 25
 
    * - Movies
      - 
@@ -166,7 +166,7 @@ People
      - optional
 
 .. list-table::
-    :widths: 50 25 25
+   :widths: 50 25 25
 
    * - video
      - boolean
