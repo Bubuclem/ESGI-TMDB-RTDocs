@@ -1,6 +1,8 @@
 API TMDB
 ===
 
+.. _installation:
+
 TV
 ------------
 
