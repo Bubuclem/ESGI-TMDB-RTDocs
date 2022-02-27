@@ -19,5 +19,4 @@ Contents
 .. toctree::
 
    docker
-   usage
    api
