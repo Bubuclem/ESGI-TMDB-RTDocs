@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
+project = 'TMDB-ESGI'
 copyright = '2021, Graziella'
-author = 'Graziella'
+author = 'Bubuclem'
 
 release = '0.1'
 version = '0.1.0'
