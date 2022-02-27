@@ -1,8 +1,6 @@
 API Django
 ===
 
-.. _installation:
-
 Media
 ------------
 
