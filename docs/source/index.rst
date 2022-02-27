@@ -13,5 +13,5 @@ Contents
 .. toctree::
 
    docker
-   api_tmdb
-   api_django
+   api tmdb
+   api django
