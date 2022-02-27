@@ -60,7 +60,12 @@ Media
 
 .. list-table::
    :widths: 50 25 25
+   :header-rows: 1
 
+   * - name
+     - type
+     - optional/required
+     
    * - budget
      - integer
      - optional
@@ -124,6 +129,11 @@ People
 
 .. list-table::
    :widths: 50 25 25
+   :header-rows: 1
+
+   * - name
+     - type
+     - optional/required
 
    * - Movies
      - 
@@ -167,6 +177,11 @@ People
 
 .. list-table::
    :widths: 50 25 25
+   :header-rows: 1
+
+   * - name
+     - type
+     - optional/required
 
    * - video
      - boolean
@@ -183,6 +198,7 @@ Video
 
 .. list-table::
    :widths: 50 25 25
+   :header-rows: 1
 
    * - name
      - type
