@@ -9,8 +9,5 @@ Documentation technique pour l'installation de Docker et mise en route de Django
 
 Contents
 --------
-
-.. toctree::
-
-   docker
-   api
+* [Docker](docker.rst)
+* [api](api.rst)
