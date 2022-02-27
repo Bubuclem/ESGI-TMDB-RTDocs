@@ -7,21 +7,53 @@ TV
 GET /tv/popular
 GET /tv/top_rated
 
-.. code-block:: console
+.. list-table::
+   :widths: 50 25 25
+   :header-rows: 1
 
-   id	               integer	      optional
-   overview	         string	      optional
-   poster_path	      string or null	optional
-   popularity	      number	      optional
-   backdrop_path	   string or null	optional
-   vote_average	   number	      optional
-   first_air_date	   string	      optional
-   original_language	string	      optional
-   genre_ids	      array[integer]	optional
-   vote_count	      integer	      optional
-   name	            string	      optional
-   original_name	   string	      optional
-   origin_country	   array[string]	optional
+   * - name
+     - type
+     - optional/required
+
+   * - id
+     - integer
+     - optional
+   * - overview
+     - string
+     - optional
+   * - poster_path
+     - string or null
+     - optional
+   * - popularity
+     - number
+     - optional
+   * - backdrop_path
+     - string or null
+     - optional
+   * - vote_average
+     - number
+     - optional
+   * - first_air_date
+     - string
+     - optional
+   * - original_language
+     - string
+     - optional
+   * - genre_ids
+     - array[integer]
+     - optional
+   * - vote_count
+     - integer
+     - optional
+   * - name
+     - string
+     - optional
+   * - original_name
+     - string
+     - optional
+   * - origin_country
+     - array[string]
+     - optional
 
 Movies
 ------------
