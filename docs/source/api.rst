@@ -7,7 +7,7 @@ TV
 GET /tv/popular
 GET /tv/top_rated
 
-..·code-block::·console
+.. code-block:: console
 
    id	integer	optional
    overview	string	optional
@@ -29,7 +29,7 @@ Movies
 GET /movie/popular
 GET /movie/top_rated
 
-..·code-block::·console
+.. code-block:: console
 
    id	integer	optional
    overview	string	optional
@@ -52,7 +52,7 @@ Genres
 
 GET /genre/movie/list
 
-..·code-block::·console
+.. code-block:: console
 
    id	integer	optional
    name	string	optional
@@ -62,7 +62,7 @@ People
 
 GET/person/popular
 
-..·code-block::·console
+.. code-block:: console
 
    poster_path	string or null	optional
    adult	boolean	optional
