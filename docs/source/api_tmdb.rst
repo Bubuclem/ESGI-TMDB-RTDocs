@@ -145,6 +145,9 @@ GET/person/popular
      - type
      - optional/required
 
+   * - id
+     - array[integer]
+     - optional
    * - poster_path
      - string or null
      - optional
@@ -162,9 +165,6 @@ GET/person/popular
      - optional
    * - genre_ids
      - string
-     - optional
-   * - id
-     - array[integer]
      - optional
    * - media_type
      - string
