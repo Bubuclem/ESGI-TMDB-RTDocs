@@ -8,6 +8,8 @@ Téléchargement de docker
 Lien de téléchargement: `Get Started with Docker | Docker`_.
 .. _Get Started with Docker | Docker: https://www.docker.com/get-started
 
+`CNN <http://cnn.com>`_
+
 Téléchargement de Terminal
 ------------
 Lien de téléchargement: `Windows Terminal`_.
@@ -29,6 +31,26 @@ Installer une distribution Linux
 
 Créer un répertoire de travail sur votre machine avec Visual Studio
 ------------
+
+Créer un fichier Dockerfile qui contient :
+
+.. code-block:: console
+
+    # syntax=docker/dockerfile:1
+    FROM python:3
+    ENV PYTHONDONTWRITEBYTECODE=1
+    ENV PYTHONUNBUFFERED=1
+    WORKDIR /code
+    COPY requirements.txt /code/
+    RUN pip install -r requirements.txt
+    COPY . /code/
+
+Créer un fichier requirements.txt qui contient :
+
+.. code-block:: console
+    
+    Django>=3.0,<4.0
+    psycopg2>=2.8
 
 Créer le projet Django
 ------------
