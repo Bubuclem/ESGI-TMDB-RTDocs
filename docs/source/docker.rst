@@ -36,7 +36,7 @@ une invite de command s’ouvre, appuyez une fois sur Entrée, puis suivre les i
 Créer un répertoire de travail sur votre machine avec Visual Studio
 ------------
 
-Créer un fichier Dockerfile qui contient :
+Créer un fichier "Dockerfile" qui contient :
 
 .. code-block:: console
 
@@ -49,14 +49,14 @@ Créer un fichier Dockerfile qui contient :
     RUN pip install -r requirements.txt
     COPY . /code/
 
-Créer un fichier requirements.txt qui contient :
+Créer un fichier "requirements.txt" qui contient :
 
 .. code-block:: console
     
     Django>=3.0,<4.0
     psycopg2>=2.8
 
-Créer un fichier docker-compose.yml qui contient :
+Créer un fichier "docker-compose.yml" qui contient :
 
 .. code-block:: console
 
