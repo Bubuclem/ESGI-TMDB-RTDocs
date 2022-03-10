@@ -63,7 +63,7 @@ Créer un fichier "docker-compose.yml" qui contient :
     version: "3.9"
    
     services:
-    db:
+      db:
         image: postgres
         volumes:
         - ./data/db:/var/lib/postgresql/data
@@ -71,7 +71,7 @@ Créer un fichier "docker-compose.yml" qui contient :
         - POSTGRES_NAME=postgres
         - POSTGRES_USER=postgres
         - POSTGRES_PASSWORD=postgres
-    web:
+      web:
         build: .
         command: python manage.py runserver 0.0.0.0:8000
         volumes:
@@ -107,13 +107,13 @@ Dans le fichier movies\ESGI_Movies\settings.py:
 
     au début du fichier ajouter :
 
-    .. code-block:: console
+    .. code-block:: python
 
         import os
 
     remplacer “DATABASES”
 
-    .. code-block:: console
+    .. code-block:: python
 
         DATABASES = {
             'default': {
@@ -126,6 +126,9 @@ Dans le fichier movies\ESGI_Movies\settings.py:
             }
         }
 
+    .. code-block:: python
+
+        ALLOWED_HOSTS = ['*']
 
 Lancer le docker
 ------------
